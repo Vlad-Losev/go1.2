@@ -1,0 +1,26 @@
+.hero {
+  position: relative;
+  padding-top: 146px;
+}
+
+.hero__title {
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+}
+
+.hero__text {
+  font-size: 28px;
+  line-height: 179%;
+  padding-left: 100px;
+  padding-bottom: 634px;
+}
+
+.hero__img {
+  position: absolute;
+  width: 675px;
+  max-height: 762px;
+  right: -25px;
+  top: 217px;
+}

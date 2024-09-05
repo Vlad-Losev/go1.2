@@ -1,0 +1,31 @@
+body {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #FFFFFF;
+  background-color: #1B1A1B;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.container {
+  max-width: 1240px;
+  font-family: Arial, sans-serif;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+q {
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+}

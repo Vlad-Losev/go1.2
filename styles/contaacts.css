@@ -1,0 +1,41 @@
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contacts__list {
+  margin-bottom: 40px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 117%;
+}
+
+.contacts__item:first-child {
+  margin-bottom: 35px;
+}
+
+.contacts__item__link {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts__item:nth-child(2) {
+  margin-bottom: 10px;
+}
+
+.contacts__svg {
+  color: #CD06FF;
+}
+
+.contacts__list__2 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}

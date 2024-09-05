@@ -1,0 +1,57 @@
+.aboutUs__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+
+
+.aboutUs__text__wrapper {
+  margin-bottom: 48px;
+}
+
+.aboutUs__text:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.aboutUs__quote {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 40px;
+}
+
+.aboutUs__quote q {
+  display: block;
+  font-size: 44px;
+  line-height: 114%;
+  text-transform: uppercase;
+  quotes: none;
+}
+
+.aboutUs__quotes {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 114%;
+  text-transform: uppercase;
+  color: #6c0287;
+
+  position: absolute;
+}
+
+.aboutUs__quotes:first-child {
+  top: 0;
+  left: 0;
+}
+
+.aboutUs__quotes:last-child {
+  bottom: 0;
+  right: 110px;
+}
+
+.aboutUs__figure {
+  max-width: 380px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: auto;
+}

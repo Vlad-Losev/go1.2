@@ -1,0 +1,33 @@
+.halls__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.halls__figure {
+  max-width: 580px;
+  position: relative;
+}
+
+.halls__img__title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 114%;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 187px);
+}
+
+.halls__figure:nth-child(2) .halls__img__title {
+  left: calc(50% - 208px);
+}
+
+.halls__figure:nth-child(3) .halls__img__title {
+  left: calc(50% - 200px);
+}
+
+.halls__figure:nth-child(4) .halls__img__title {
+  left: calc(50% - 224px);
+}

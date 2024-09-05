@@ -1,0 +1,27 @@
+.container-2 {
+  max-width: 1040px;
+  padding: 0 30px;
+}
+
+.reviews__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.reviews__block:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.reviews img {
+  max-width: 280px;
+  margin-bottom: 10px;
+}
+
+.reviews figcaption {
+  text-align: center;
+}
+
+.reviews p {
+  padding-top: 52px;
+}
