@@ -1,9 +1,12 @@
 @import url(./normalize.css);
 @import url(./global.style.css);
 @import url(./style.css);
+@import url(./header.css);
 @import url(./hero.css);
+@import url(./cards.css);
 @import url(./halls.css);
+@import url(./reserv.css);
 @import url(./aboutUs.css);
 @import url(./reviews.css);
 @import url(./faq.css);
-@import url(./contaacts.css);
+@import url(./contacts.css);
